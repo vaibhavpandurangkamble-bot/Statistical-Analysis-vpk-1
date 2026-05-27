@@ -1,0 +1,7 @@
+﻿Problem,Fix Applied
+Unicode ─ characters causing SyntaxError,Replaced every ──── with plain ASCII ---
+SEm / CD / CV missing from RCBD,_render_precision_metrics() now called correctly
+SEm / CD / CV missing from Latin Square,_render_precision_metrics() now called correctly
+SEm / CD / CV missing from Lattice,sem and cd now returned and displayed
+Split-Plot had no precision metrics,Dual precision metrics added for both main and sub plot errors
+CV interpretation missing,Auto-interprets CV as Excellent / Acceptable / High
